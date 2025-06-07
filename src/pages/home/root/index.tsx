@@ -17,7 +17,7 @@ function HomeRoot() {
             </div>
 
             {/* Navigation Menu - 在小屏幕上隐藏部分导航 */}
-            <div className="hidden md:flex items-center gap-6 lg:gap-[50px]">
+            <div className="hidden sm:flex items-center gap-6 lg:gap-[50px]">
               <div className="flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors">
                 学生/家长
               </div>
