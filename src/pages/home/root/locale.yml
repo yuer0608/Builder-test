@@ -1,0 +1,59 @@
+id: home.root
+languages:
+  zh-CN:
+    s1:
+      title: AI 驱动、专家品控<br/>全球升学VIP服务
+      description: 最前沿、最专业的AI留学申请Marketplace
+      button: 立即体验
+    s2:
+      title: AI能力 + 专业服务造就颠覆式申请体验
+      description: 在AI时代，我们相信学生成功不仅在于选校，更在于适应变化。我们的平台旨在帮助学生找到自我、探索未来，并在AI浪潮中领先。我们致力于提供最优质的升学服务，助力学生成功留学。
+      card1:
+        title: 强大的AI能力
+        description: 基于大数据，让申请决策更客观有依据<br/>程序化管理，让申请进度更清晰、执行更精准<br/>留学知识库，让申请信息更完备及时<br/>AI检查与监督，让服务质量更有保障
+        button: 了解更多
+        img: /static/images/home/root/s2_1.png
+      card2:
+        title: 专业导师服务
+        description: 行业知识与经验，让申请决策更专业<br/>真人沟通与解读，让理解更顺畅深入<br/>检查AI产出结果，让AI信息更准确可靠<br/>真人提供反馈，让AI能力不断完善与进化
+        img: /static/images/home/root/s2_2.png
+    s3:
+      title: 我们的服务成果 
+      tips:
+        - 进入理想学校的机会，比直接申请提升200%+
+        - 藤校及G5名校offer
+        - 24年获得藤校及G5名校录取
+        - 真实服务案例 
+        - 5.0满分好评
+    s4:
+      title: 我们的AI能力
+      description: 用海量数据提升决策质量，用精选知识库提升信息水平，使你的申请过程更科学、更可靠
+
+  en-US:
+    s1:
+      title: AI-Powered, Expert Guaranteed, Global VIP School Application 
+      description: The Most Cutting-Edge, Professional AI Study Abroad Application Marketplace
+      button: Experience Now
+    s2:
+      title: AI Capabilities + Expert Services for a Disruptive Application Experience
+      description: In the AI era, we believe students' success is not just about choosing the right school, but also about adapting to change. Our platform helps students discover themselves, explore their future, and stay ahead in the AI wave. We are committed to providing the best study abroad services to help students succeed.
+      card1:
+        title: Powerful AI Capabilities
+        description: Data-driven decisions, objective and evidence-based<br/> Programmatic management for clearer progress and precise execution<br/> Study abroad knowledge base for comprehensive and timely information<br/> AI checks and oversight for guaranteed service quality
+        button: Learn More
+        img: /static/images/home/root/s2_1_en.png
+      card2:
+        title: Professional Mentor Services
+        description: Industry knowledge and experience for more professional application decisions<br/> Real-time communication for smoother, deeper understanding<br/> AI output review for more accurate and reliable information<br/> Human feedback to continuously improve AI capabilities
+        img: /static/images/home/root/s2_2_en.png
+    s3:
+      title: Our Application Results
+      tips: 
+        - chance of entering your dream school, 200%+ better than applying directly
+        - Ivy League and G5 school offers
+        - Ivy League and G5 school admissions in 2024
+        - real service cases
+        - 5.0-star reviews
+    s4:
+      title: Our AI Capabilities
+      description: Leveraging vast data to enhance decision-making, and a curated knowledge base to improve information quality, making your application process more scientific and reliable.

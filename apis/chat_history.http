@@ -1,0 +1,10 @@
+### first time
+GET https://dev-api.apply7.ai/api/get_chat_history?conversation_id=6711f5342be6023da332a1ff
+Authorization: Bearer {{ token }}
+Content-Type: application/json
+
+
+### pagination
+GET https://dev-api.apply7.ai/api/get_chat_history?conversation_id=6711f5342be6023da332a1ff&before=2024-10-18T06:45:52.948000&count=1
+Authorization: Bearer {{ token }}
+Content-Type: application/json

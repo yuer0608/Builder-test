@@ -1,0 +1,17 @@
+{
+    "entry": [
+        "src/main.tsx", 
+        "src/shared/modals-eager/*",
+        "src/shared/modals/*",
+        "src/shared/modals/**/*",
+        "src/shared/commands/*",
+        "src/shared/validators/*"
+    ],
+    "ignorePatterns": [
+        "**/shared/commands/**", 
+        "**/shared/modals-eager/**", 
+        "**/shared/modals/**",
+        "**/shared/validators/**",
+        "*.d.ts"
+    ]
+  }
