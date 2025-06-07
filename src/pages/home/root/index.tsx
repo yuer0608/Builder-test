@@ -30,27 +30,34 @@ function HomeRoot() {
                 学校/机构
               </div>
               <div
-                className="relative flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors"
+                className="relative"
                 onMouseEnter={() => setIsAboutDropdownOpen(true)}
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}>
-                关于我们
-                <svg
-                  className={`w-5 h-5 transition-transform duration-200 ${isAboutDropdownOpen ? 'rotate-180' : ''}`}
-                  viewBox="0 0 20 20"
-                  fill="none">
-                  <path d="M9.9987 12.4997L5.83203 8.33301H14.1654L9.9987 12.4997Z" fill="black" />
-                </svg>
+                <div className="flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors">
+                  关于我们
+                  <svg
+                    className={`w-5 h-5 transition-transform duration-200 ${isAboutDropdownOpen ? 'rotate-180' : ''}`}
+                    viewBox="0 0 20 20"
+                    fill="none">
+                    <path d="M9.9987 12.4997L5.83203 8.33301H14.1654L9.9987 12.4997Z" fill="black" />
+                  </svg>
+                </div>
+
                 {/* Dropdown Menu */}
                 {isAboutDropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50">
+                  <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50">
                     <Link
                       to="/contact"
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-grape-600 transition-colors">
+                      className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-grape-600 transition-colors"
+                      onClick={() => setIsAboutDropdownOpen(false)}>
                       联系我们
                     </Link>
-                    <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-grape-600 transition-colors cursor-pointer">
+                    <Link
+                      to="/about"
+                      className="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-grape-600 transition-colors"
+                      onClick={() => setIsAboutDropdownOpen(false)}>
                       公司介绍
-                    </div>
+                    </Link>
                   </div>
                 )}
               </div>
