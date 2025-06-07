@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 function HomeRoot() {
+  const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
+
   return (
     <div className="w-full min-h-screen bg-white">
       {/* Hero Section - 背景撑满全屏 */}
