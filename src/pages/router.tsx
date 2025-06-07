@@ -7,6 +7,7 @@ import Root from '@/pages/root';
 import HomeRoot from './home/root';
 import StudentPage from './student';
 import ContactPage from './contact';
+import AboutPage from './about';
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 
 export default createBrowserRouter(
@@ -16,6 +17,7 @@ export default createBrowserRouter(
       <Route path="/home" element={<HomeRoot />} />
       <Route path="/student" element={<StudentPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/about" element={<AboutPage />} />
     </Route>
   )
 );
