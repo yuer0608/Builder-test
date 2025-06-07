@@ -16,8 +16,8 @@ function HomeRoot() {
               <span className="font-['Inter']">Apply7</span>
             </div>
 
-            {/* Navigation Menu - 在小屏幕上隐藏部分导航 */}
-            <div className="hidden sm:flex items-center gap-6 lg:gap-[50px]">
+            {/* Navigation Menu - 确保在大部分屏幕上都能显示 */}
+            <div className="flex items-center gap-6 lg:gap-[50px]">
               <div className="flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors">
                 学生/家长
               </div>
@@ -44,7 +44,6 @@ function HomeRoot() {
                 </svg>
               </div>
             </div>
-
             {/* Mobile Menu Button */}
             <div className="sm:hidden">
               <button className="w-8 h-8 flex items-center justify-center">
