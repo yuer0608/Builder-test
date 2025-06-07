@@ -71,9 +71,11 @@ function HomeRoot() {
 
             {/* Button Group */}
             <div className="flex flex-col sm:flex-row gap-4 lg:gap-5 mt-6 lg:mt-10">
-              <button className="w-full sm:w-[180px] lg:w-[200px] h-12 lg:h-14 px-6 lg:px-9 py-3 lg:py-[15px] bg-grape-600 border border-[#23169B] rounded-xl text-white text-lg lg:text-xl font-medium leading-[155%] cursor-pointer hover:bg-grape-700 hover:-translate-y-0.5 transition-all duration-300">
+              <Link
+                to="/student"
+                className="w-full sm:w-[180px] lg:w-[200px] h-12 lg:h-14 px-6 lg:px-9 py-3 lg:py-[15px] bg-grape-600 border border-[#23169B] rounded-xl text-white text-lg lg:text-xl font-medium leading-[155%] cursor-pointer hover:bg-grape-700 hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center">
                 学生/家长
-              </button>
+              </Link>
               <button className="w-full sm:w-[180px] lg:w-[200px] h-12 lg:h-14 px-6 lg:px-9 py-3 lg:py-[15px] bg-white border border-gray-300 rounded-xl text-black text-lg lg:text-xl font-medium leading-[155%] cursor-pointer hover:bg-gray-50 hover:border-grape-600 transition-all duration-300">
                 学校/机构
               </button>
@@ -139,7 +141,7 @@ function HomeRoot() {
               <div className="flex flex-col items-center gap-2">
                 <div className="w-[100px] lg:w-[120px] h-[100px] lg:h-[120px] bg-white rounded-xl flex items-center justify-center shadow-md">
                   <div className="w-20 lg:w-24 h-20 lg:h-24 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center text-gray-500 text-xs text-center leading-tight">
-                    小红书
+                    小���书
                     <br />
                     二维码
                   </div>
