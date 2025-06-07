@@ -19,9 +19,11 @@ function HomeRoot() {
 
             {/* Navigation Menu - 确保在大部分屏幕上都能显示 */}
             <div className="flex items-center gap-6 lg:gap-[50px]">
-              <div className="flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors">
+              <Link
+                to="/student"
+                className="flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors">
                 学生/家长
-              </div>
+              </Link>
               <div className="flex items-center gap-1 text-black text-sm font-semibold cursor-pointer hover:text-grape-600 transition-colors">
                 学校/机构
               </div>
