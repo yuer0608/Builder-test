@@ -1018,7 +1018,7 @@ function StudentPage() {
                   lineHeight: '160%',
                   marginBottom: '20px'
                 }}>
-                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强，值得借���！
+                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强，值得借鉴！
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <div
@@ -1026,7 +1026,10 @@ function StudentPage() {
                     width: '40px',
                     height: '40px',
                     borderRadius: '50%',
-                    backgroundColor: '#f0f0f0'
+                    backgroundColor: '#f0f0f0',
+                    backgroundImage: 'url("/images/testimonial-avatar1.jpg")',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
                   }}></div>
                 <div>
                   <div
@@ -1294,7 +1297,7 @@ function StudentPage() {
               fontWeight: '600',
               marginBottom: '20px'
             }}>
-            教练式升学服务
+            教���式升学服务
           </h3>
 
           <p
