@@ -86,7 +86,7 @@ function StudentPage() {
       title: '加州大学伯克利 AI 基础夏令营',
       instructor: '教育专家 Mr. Mauro',
       schedule: '暑假 2 周时间，线下授课',
-      description: '学习Python与数据分析\n掌握核心机器学习算法\n���解AI前沿动态，积累项目经验',
+      description: '学习Python与数据分析\n掌握核心机器学习算法\n了解AI前沿动态，积累项目经验',
       image: '/images/course2.jpg'
     },
     {
@@ -433,10 +433,11 @@ function StudentPage() {
             width: '431px',
             height: '656px',
             backgroundColor: '#f0f0f0',
-            borderRadius: '20px'
-          }}>
-          {/* Placeholder for hero image */}
-        </div>
+            borderRadius: '20px',
+            backgroundImage: 'url("/images/hero-founder.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}></div>
 
         {/* Founder caption */}
         <div
@@ -535,7 +536,7 @@ function StudentPage() {
                 lineHeight: '150%',
                 marginBottom: '40px'
               }}>
-              Apply7 由权威教育专家与 MIT 团队联合打造，依托智能系统，助��学生斩获全球顶尖名校录取。Apply7
+              Apply7 由权威教育专家与 MIT 团队联合打造，依托智能系统，助力学生斩获全球顶尖名校录取。Apply7
               全球升学平台覆盖美、英、欧洲、加、澳、港、新等全球6000+
               顶级院校，无论你向往何方，我们都能为你提供精准、专业的升学指导和资源对接，助你稳步踏入理想的顶尖学府。
             </p>
@@ -689,7 +690,7 @@ function StudentPage() {
                   fontSize: '16px',
                   fontWeight: activeTab === 'coaching' ? '600' : '400'
                 }}>
-                教练式升学服务
+                教练式升学服��
               </span>
             </button>
           </div>
@@ -971,7 +972,7 @@ function StudentPage() {
               fontWeight: '600',
               marginBottom: '20px'
             }}>
-            我们的学生怎��说
+            我们的学生怎么说
           </h3>
 
           <p
