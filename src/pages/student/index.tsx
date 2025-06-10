@@ -92,7 +92,7 @@ function StudentPage() {
     {
       title: '2025《哈佛国际评论》竞赛写作大师课',
       instructor: 'Ms. Sarah',
-      schedule: '春夏秋三季开课，每季 16 节课',
+      schedule: '春���秋三季开课，每季 16 节课',
       description: '了解HIR竞赛写作标准\n训练写作能力，1对1实时反馈\n产出高质量参赛作品',
       image: '/images/course3.jpg'
     }
@@ -690,7 +690,7 @@ function StudentPage() {
                   fontSize: '16px',
                   fontWeight: activeTab === 'coaching' ? '600' : '400'
                 }}>
-                教练式升学服��
+                教练式升学服务
               </span>
             </button>
           </div>
@@ -852,7 +852,10 @@ function StudentPage() {
                     height: '461px',
                     backgroundColor: '#f0f0f0',
                     borderRadius: '8px',
-                    boxShadow: '0px 1.475px 3.689px 0px rgba(23, 49, 133, 0.20)'
+                    boxShadow: '0px 1.475px 3.689px 0px rgba(23, 49, 133, 0.20)',
+                    backgroundImage: 'url("/images/ai-report-preview1.jpg")',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
                   }}></div>
                 <div
                   style={{
@@ -863,7 +866,10 @@ function StudentPage() {
                     height: '461px',
                     backgroundColor: '#f0f0f0',
                     borderRadius: '8px',
-                    boxShadow: '0px 1.475px 3.689px 0px rgba(23, 49, 133, 0.20)'
+                    boxShadow: '0px 1.475px 3.689px 0px rgba(23, 49, 133, 0.20)',
+                    backgroundImage: 'url("/images/ai-report-preview2.jpg")',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
                   }}></div>
               </div>
             </div>
@@ -1267,7 +1273,7 @@ function StudentPage() {
                 fontWeight: '500',
                 cursor: 'pointer'
               }}>
-              了解更多
+              了解��多
             </button>
           </div>
         </div>
