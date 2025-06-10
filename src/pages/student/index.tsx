@@ -70,7 +70,7 @@ function StudentPage() {
       icon: '🌟',
       title: '全球资源与真实成长',
       description:
-        '对接全球教育与实践资源，构建从学习到实习再到申请的闭环成长系统。不仅是申请成功，更是未来发展的坚实基石。'
+        '对接全球教育与实践资源，构建从学习到实习再到申请的闭环成长系统。不仅是申请成功，更是未��发展的坚实基石。'
     }
   ];
 
@@ -105,7 +105,7 @@ function StudentPage() {
       description: '职业方向探索及梳理、选课指导及GPA管理、背景提升资源对接、考试规划和指导'
     },
     {
-      icon: '📝',
+      icon: '���',
       title: '申请季服务',
       description:
         '选校指导、申请策略制定、文书策略制定与写作、简历写作及优化、申请材料准备与指导、面试辅导、奖学金申请'
@@ -538,7 +538,7 @@ function StudentPage() {
               }}>
               Apply7 由权威教育专家与 MIT 团队联合打造，依托智能系统，助力学生斩获全球顶尖名校录取。Apply7
               全球升学平台覆盖美、英、欧洲、加、澳、港、新等全球6000+
-              顶级���校，无论你向往何方，我们都能为你提供精准、专业的升学指导和资源对接，助你稳步踏入理想的顶尖学府。
+              顶级院校，无论你向往何方，我们都能为你提供精准、专业的升学指导���资源对接，助你稳步踏入理想的顶尖学府。
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: '22px' }}>
               {/* Partner logos */}
@@ -1323,19 +1323,38 @@ function StudentPage() {
                 height: '401px',
                 borderRadius: '44px',
                 backgroundColor: '#F9F9FA',
-                position: 'relative'
+                position: 'relative',
+                backgroundImage: 'url("/images/coaching-illustration.jpg")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
               }}>
-              {/* Coaching illustration */}
               <div
                 style={{
                   position: 'absolute',
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  fontSize: '100px'
-                }}>
-                👩‍💼
-              </div>
+                  top: '330px',
+                  right: '315px',
+                  width: '17px',
+                  height: '24px',
+                  backgroundColor: '#4F4F4F'
+                }}></div>
+              <div
+                style={{
+                  position: 'absolute',
+                  top: '300px',
+                  right: '300px',
+                  width: '17px',
+                  height: '24px',
+                  backgroundColor: '#4F4F4F'
+                }}></div>
+              <div
+                style={{
+                  position: 'absolute',
+                  top: '391px',
+                  right: '35px',
+                  width: '17px',
+                  height: '24px',
+                  backgroundColor: '#4F4F4F'
+                }}></div>
             </div>
 
             <div style={{ flex: 1 }}>
