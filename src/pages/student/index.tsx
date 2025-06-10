@@ -108,7 +108,7 @@ function StudentPage() {
       icon: '📝',
       title: '申请季服务',
       description:
-        '选校指导、申请策略制定、文书策略制定与写作、简历写作及优化、申请材料准备与指导、面试辅导、奖学金申请'
+        '选校指导、申请策略制定、文书策略制定与写作、简历写作及优化、申��材料准备与指导、面试辅导、奖学金申请'
     },
     {
       icon: '🎓',
@@ -742,7 +742,7 @@ function StudentPage() {
                     marginBottom: '30px'
                   }}>
                   基于AI Agent
-                  和大数据分析，覆盖从高中规划到大学专业选择与职业发展计划，打造科学权威、有数据支撑的全球升学方案。
+                  和大数据分析，覆盖从高中规划到大学专业选择与职业发展计划��打造科学权威、有数据支撑的全球升学方案。
                 </p>
 
                 <div style={{ display: 'flex', gap: '30px', marginBottom: '30px' }}>
@@ -1018,7 +1018,7 @@ function StudentPage() {
                   lineHeight: '160%',
                   marginBottom: '20px'
                 }}>
-                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强，值得借鉴！
+                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强���值得借鉴！
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <div
@@ -1456,7 +1456,7 @@ function StudentPage() {
             marginBottom: '80px',
             width: '380px'
           }}>
-          在Apply7，我们深知升学不仅关乎申请结果，更是一次系统的自我探索与未来规划。我们依托先进的AI技术与全球顶尖专家资源，为学生提供个性化、全程化的升学解决方案，以精准的数据洞察和专业教练式指导，助力学生在激烈的竞争中脱颖而出，迈向理想的世界名校。
+          在Apply7，我们深知升学不仅关乎申请结果，更是一次系统的自我探索与未来规划。我们依托先进的AI技术与全球顶尖���家资源，为学生提供个性化、全程化的升学解决方案，以精准的数据洞察和专业教练式指导，助力学生在激烈的竞争中脱颖而出，迈向理想的世界名校。
         </p>
 
         <div
@@ -1776,7 +1776,10 @@ function StudentPage() {
                   width: '120px',
                   height: '120px',
                   backgroundColor: '#f0f0f0',
-                  borderRadius: '12px'
+                  borderRadius: '12px',
+                  backgroundImage: 'url("/images/wechat-qr.jpg")',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
                 }}></div>
               <span
                 style={{
