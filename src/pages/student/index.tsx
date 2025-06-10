@@ -92,7 +92,7 @@ function StudentPage() {
     {
       title: '2025《哈佛国际评论》竞赛写作大师课',
       instructor: 'Ms. Sarah',
-      schedule: '春���秋三季开课，每季 16 节课',
+      schedule: '春夏秋三季开课，每季 16 节课',
       description: '了解HIR竞赛写作标准\n训练写作能力，1对1实时反馈\n产出高质量参赛作品',
       image: '/images/course3.jpg'
     }
@@ -1018,7 +1018,7 @@ function StudentPage() {
                   lineHeight: '160%',
                   marginBottom: '20px'
                 }}>
-                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强，值得借鉴！
+                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强，值得借���！
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <div
@@ -1195,7 +1195,10 @@ function StudentPage() {
                   style={{
                     width: '340px',
                     height: '200px',
-                    backgroundColor: '#f0f0f0'
+                    backgroundColor: '#f0f0f0',
+                    backgroundImage: `url("${course.image}")`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
                   }}></div>
                 <div style={{ padding: '24px 15px' }}>
                   <h4
@@ -1273,7 +1276,7 @@ function StudentPage() {
                 fontWeight: '500',
                 cursor: 'pointer'
               }}>
-              了解��多
+              了解更多
             </button>
           </div>
         </div>
