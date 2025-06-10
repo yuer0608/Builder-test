@@ -538,7 +538,7 @@ function StudentPage() {
               }}>
               Apply7 由权威教育专家与 MIT 团队联合打造，依托智能系统，助力学生斩获全球顶尖名校录取。Apply7
               全球升学平台覆盖美、英、欧洲、加、澳、港、新等全球6000+
-              顶级院校，无论你向往何方，我们都能为你提供精准、专业的升学指导和资源对接，助你稳步踏入理想的顶尖学府。
+              顶级���校，无论你向往何方，我们都能为你提供精准、专业的升学指导和资源对接，助你稳步踏入理想的顶尖学府。
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: '22px' }}>
               {/* Partner logos */}
@@ -1086,7 +1086,10 @@ function StudentPage() {
                     width: '40px',
                     height: '40px',
                     borderRadius: '50%',
-                    backgroundColor: '#f0f0f0'
+                    backgroundColor: '#f0f0f0',
+                    backgroundImage: 'url("/images/testimonial-avatar2.jpg")',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
                   }}></div>
                 <div>
                   <div
@@ -1297,7 +1300,7 @@ function StudentPage() {
               fontWeight: '600',
               marginBottom: '20px'
             }}>
-            教���式升学服务
+            教练式升学服务
           </h3>
 
           <p
