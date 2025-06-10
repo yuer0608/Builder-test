@@ -70,7 +70,7 @@ function StudentPage() {
       icon: '🌟',
       title: '全球资源与真实成长',
       description:
-        '对接全球教育与实践资源，构建从学习到实习再到申请的闭环成长系统。不仅是申请成功，更是未来发展的坚实基��。'
+        '对接全球教育与实践资源，构建从学习到实习再到申请的闭环成长系统。不仅是申请成功，更是未来发展的坚实基石。'
     }
   ];
 
@@ -106,7 +106,7 @@ function StudentPage() {
     },
     {
       icon: '📝',
-      title: '���请季服务',
+      title: '申请季服务',
       description:
         '选校指导、申请策略制定、文书策略制定与写作、简历写作及优化、申请材料准备与指导、面试辅导、奖学金申请'
     },
@@ -1018,7 +1018,7 @@ function StudentPage() {
                   lineHeight: '160%',
                   marginBottom: '20px'
                 }}>
-                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对��性很强，值得借鉴！
+                Apply7的规划报告整体感觉推荐的方向不错，整体框架也很不错。对国内的家长来说，知道了本土成功案例，尤其是平和的案例，觉得对标性很强，值得借鉴！
               </p>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <div
@@ -1748,7 +1748,10 @@ function StudentPage() {
                   width: '120px',
                   height: '120px',
                   backgroundColor: '#f0f0f0',
-                  borderRadius: '16px'
+                  borderRadius: '16px',
+                  backgroundImage: 'url("/images/xiaohongshu-qr.jpg")',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
                 }}></div>
               <span
                 style={{
